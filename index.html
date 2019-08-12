@@ -4,32 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Snips!</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="default-header">
       <nav>
         <!-- TODO: put in the logo -->
-        <i>Logo goes here</i>
-        <a href="/">Home</a> |
-        <a href="pages/snippets.html">Snips Collection</a> |
-        <a href="pages/about.html">About</a> |
-        <a href="pages/account.html">Account</a>
-        <hr />
-        <br />
+        <ul>
+          <li><a href="/">Home</a> |</li>
+          <li><a href="pages/snippets.html">Snips Collection</a> |</li>
+          <li><a href="pages/about.html">About</a> |</li>
+          <li><a href="pages/account.html">Account</a> |</li>
+          <li><a href="#competitors">Competitors</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <img
-          src="images/codeBG.jpg"
-          alt="Machine Code Background Picture | codeBG.jpg"
-          style="max-width: 100vw;"
-        />
-        <h1>Snips Home Page!</h1>
+      <section id="hero">
+        <h1>✂ Snips! ✂</h1>
         <h2>
-          Fanny pack unicorn pug, vexillologist gluten-free tofu gastropub green
-          juice edison bulb fashion axe put a bird on it. Ethical shabby chic
-          fashion axe banh mi pour-over deep v.
+          The slickest, fastest way to share your code snippets!
         </h2>
       </section>
       <section>
@@ -59,7 +53,7 @@
         </p>
       </section>
       <section>
-        <h2>Competitors</h2>
+        <h2 id="competitors">Competitors</h2>
         <iframe src="https://stackoverflow.com/"></iframe>
         <iframe src="https://wesbos.com/"></iframe>
         <iframe src="https://codepen.io/"></iframe>

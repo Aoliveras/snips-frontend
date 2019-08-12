@@ -1,0 +1,29 @@
+header {
+  font-size: 1.5em;
+  padding: 10px 2em;
+  text-align: center;
+  /* width: 100vw; */
+}
+
+header ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+.default-header {
+  background: linear-gradient(white, rgba(53, 97, 179, 0.5));
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  color: white;
+  transform: rotate(10deg);
+  transition: .2s;
+}
