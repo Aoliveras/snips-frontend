@@ -3,10 +3,12 @@
 @import 'resets.css';
 @import 'header.css';
 @import 'hero.css';
+@import 'snippets.css';
 
 body {
   font-family: 'Montserrat', sans-serif;
   color: #141414;
+  background-color: #ebebec;
 }
 
 #competitors {
