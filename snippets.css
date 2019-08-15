@@ -8,15 +8,17 @@
 .snip {
   width: 85%;
   max-width: 420px;
-  border: 1px solid #282c3452;
   border-radius: 5px;
   background-color: #fff;
   margin: 1rem 0;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.75);
 }
 
 .snip .text {
   padding: 1rem;
-  padding-bottom: 0;
+  border: 1px solid #282c3452;
+  border-bottom: 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .snip h2 {
